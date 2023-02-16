@@ -1,0 +1,440 @@
+{
+  "routeName": {
+    "main": "Main",
+    "monitoring": "Monitoring",
+    "trendAnalytics":"Trends Analytics",
+    "detectionLog": "Detection Log",
+    "detectionCanIds": "CAN IDS",
+    "detectionHostIdps": "HOST IDPS",
+    "policyCanIds": "CAN IDS",
+    "policyHostIdps": "HOST IDPS",
+    "policyManagement": "Policy Management",
+    "vehicleManagement": "Vehicle Management",
+    "vehicleList": "Vehicle List",
+    "vehiclePlatformList": "Vehicle Platform List",
+    "vehicleDetails": "Vehicle Details",
+    "vehiclePlatformDetails": "Vehicle Platform Details",
+    "systemSettings": "System Settings",
+    "settings": "Settings",
+    "policyDetail": "Policy Detail",
+    "policyHistoryLogDetail": "History Log Detail",
+    "policyEdit": "Policy Edit",
+    "account": "Account",
+    "apiLog": "API Log"
+  },
+  "account": {
+    "pageTitle": "Account",
+    "registerAccount":  "Register Account",
+    "id": "ID",
+    "name": "Name",
+    "role": "Role",
+    "createdDate": "Created Date",
+    "registerPageNotify": " is required fields.",
+    "checkDuplicate": "check duplicate",
+    "password": "password",
+    "checkPassword": "check password",
+    "register": "register",
+    "cancel": "cancel",
+    "currentPassword": "current password",
+    "passwordGuide1": "[Password setting guidelines]",
+    "passwordGuide2": "- Please set a password of 8 to 16 characters.",
+    "passwordGuide3": "- If you include English and special characters, you can manage your account more safely.",
+    "registerComplete": "Account has been added.",
+    "requiredPass": "Please enter a password.",
+    "requiredId": "Please enter your ID.",
+    "requiredName": "Please enter your name.",
+    "passwordValidationRule": "Please set a password of 8 to 16 characters.",
+    "passwordConfirmationRule": "Passwords do not match.",
+    "onDialogTitleModify": "Edit admin account information",
+    "onDialogTitleRegister": "Register for admin account",
+    "availableId": "Username is available.",
+    "duplicatedId": "Duplicate ID.",
+    "cancelRegister": "Please check your input information again."
+  },
+  "apiLog": {
+    "pageTitle": "API Log",
+    "createdTime": "created Time",
+    "url": "url",
+    "method": "method",
+    "level": "level",
+    "sourceIp": "source ip",
+    "request": "request",
+    "response": "response",
+    "processingTime": "processing time (sec)"
+  },
+  "detectionCanIds": {
+    "totalDetections": "Total Detections",
+    "averageDetections": "Average Detections",
+    "detectedVehicles": "Detected Vehicles",
+    "ruleName": "Rule Name",
+    "detectionList" : "Detection List",
+    "hideRule": "Hide Rule",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "alwaysRealTime": "Always real time",
+    "vehicleIdSearch": "Vehicle ID Search...",
+    "hideRuleMessage": "detection logs are hidden.\nAll detection logs for this rule will be applied in the future.",
+    "export": "Export",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "detectedTime": "Detected Time",
+    "vehicleId": "Vehicle ID",
+    "policy": "Policy Name",
+    "version": "Version",
+    "cnt": "Cnt",
+    "tx": "TX",
+    "rx": "RX",
+    "busId": "Bus ID",
+    "messageId": "Message ID",
+    "signalId": "Signal ID",
+    "rawMessageData": "Raw Message Data(Length)",
+    "reasonForDetection": "Reason For Detection",
+    "severity": "Severity",
+    "labeling": "Labeling",
+    "hide": "Hide"
+  },
+  "detectionHostIdps": {
+    "totalDetections": "Total Detections",
+    "averageDetections": "Average Detections",
+    "detectedVehicles": "Detected Vehicles",
+    "ruleName": "Rule Name",
+    "detectionList" : "Detection List",
+    "exportBtn": "Export",
+    "vehicleIdSearch": "Vehicle ID Search...",
+    "detectedTime": "Detected Time",
+    "vehicleId": "Vehicle ID",
+    "policy": "Policy Name",
+    "version": "Version",
+    "protocol": "Protocol",
+    "srcIp": "Src IP",
+    "srcPort": "Src Port",
+    "dstIp": "Dst IP",
+    "dstPort": "Dst Port",
+    "severity": "Severity",
+    "labeling": "Labeling",
+    "hide": "Hide",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "alwaysRealTime": "Always real time",
+    "hideRule": "Hide Rule",
+    "hideRuleMessage": "detection logs are hidden.\nAll detection logs for this rule will be applied in the future.",
+    "acceptBtn": "Accept",
+    "cancelBtn": "Cancel",
+    "logType": "Log Type"
+  },
+  "policyCanIds": {
+    "pageTitle": "Policy",
+    "addPolicyDialog": {
+      "triggerButton": "Add Policy",
+      "title": "Add Policy",
+      "fileInputLabel": "Import Policy File (.json)",
+      "nameInputLabel": "Policy Name",
+      "policyVersionLabel": "Policy Version",
+      "addButton" : "Add",
+      "cancelButton": "Cancel"
+    },
+    "policySearchBarPlaceholder": "Policy Name Search......",
+    "policyListHeader": {
+      "no": "No.",
+      "policyName": "Policy Name",
+      "latestVersion": "Latest Version",
+      "status": "Status",
+      "updated": "Updated",
+      "updatedBy": "Updated By",
+      "detail": "Detail"
+    }
+  },
+  "policyHostIdps": {
+    "pageTitle": "Policy",
+    "addPolicyDialog": {
+      "triggerButton": "Add Policy",
+      "title": "Add Policy",
+      "fileInputLabel": "Import Policy File (.json)",
+      "nameInputLabel": "Policy Name",
+      "policyVersionLabel": "Policy Version",
+      "addButton" : "Add",
+      "cancelButton": "Cancel"
+    },
+    "policySearchBarPlaceholder": "Policy Name Search......",
+    "policyListHeader": {
+      "no": "No.",
+      "policyName": "Policy Name",
+      "latestVersion": "Latest Version",
+      "status": "Status",
+      "updated": "Updated",
+      "updatedBy": "Updated By",
+      "detail": "Detail"
+    }
+  },
+  "policyDetail": {
+    "versionComponent": {
+      "title": "Version",
+      "createDialog": {
+        "triggerButton": "Create New Version",
+        "title": "Create New Version",
+        "fileInputLabel": "Import Policy File (.json)",
+        "versionInputLabel": "Policy Version",
+        "createButton" : "Create",
+        "cancelButton": "Cancel"
+      },
+      "table": {
+        "header": {
+          "version": "Version",
+          "status": "Status",
+          "modified": "Modified",
+          "modifiedBy": "Modified By",
+          "published": "Published",
+          "publishedBy": "Published By",
+          "action": "Additional Feature"
+        },
+        "body": {
+          "edit": "Edit",
+          "publish": "Publish",
+          "view": "View",
+          "delete": "Delete"
+        }
+      },
+      "publishDialog": {
+        "title": "Publish Policy",
+        "publishTime": "Publishing Time",
+        "headers": {
+          "no": "No.",
+          "vehicleId": "Vehicle ID",
+          "policy": "Policy",
+          "version": "Version",
+          "registeredDate": "Registered Date",
+          "detail": "Detail"
+        },
+        "publishButton": "Publish",
+        "cancelButton": "Cancel"
+      }
+    },
+    "historyLogComponent": {
+      "title": "History Log",
+      "table": {
+        "header": {
+          "no": "No.",
+          "version": "Version",
+          "vehicles": "Vehicles",
+          "publishedTime": "Published Time",
+          "publishedBy": "Published By",
+          "installationRate": "Installation Rate",
+          "action": "Additional Feature",
+          "detail": "Detail"
+        },
+        "body": {
+          "cancel": "Cancel",
+          "rollback": "Rollback"
+        }
+      }
+    }
+  },
+  "policyHistoryLogDetail": {
+    "logDetailComponent": {
+      "title": "History Log Details",
+      "version": "Version",
+      "publishedTime": "Published Time",
+      "vehicles": "Vehicles",
+      "publishedBy": "Published By"
+    },
+    "publishedVehiclesComponent": {
+      "title": "Published Vehicles",
+      "no": "No.",
+      "vehicleId": "Vehicle ID",
+      "policy": "Policy",
+      "version": "Version",
+      "installationDate": "Installation Date",
+      "installationStatus": "Installation Status"
+    }
+  },
+  "policyEdit": {
+    "rule": "Rule",
+    "addButton": "Add",
+    "saveButton": "Save",
+    "canDbListComponent": {
+      "title": "CAN DB List",
+      "importPolicyDialog": {
+        "trigger": "Import Policy",
+        "title": "Import Policy",
+        "fileInputLabel": "Import Policy (.json)",
+        "nameInputLabel": "Policy Name",
+        "addButton": "Add",
+        "cancelButton": "Cancel"
+      },
+      "header": {
+        "no": "No.",
+        "busNumber": "Bus Number",
+        "canDbName": "CAN DB Name",
+        "generated": "Generated",
+        "lastUpdated": "Last Updated",
+        "actions": "Actions"
+      },
+      "body": {
+        "edit": "Edit",
+        "download": "Download",
+        "view": "View",
+        "delete": "Delete"
+      }
+    },
+    "busRuleComponent": {
+      "title": "Bus Rule List",
+      "header": {
+        "no": "No.",
+        "busNumber": "Bus Number",
+        "ruleType": "Rule Type",
+        "expectedValue": "Expected Value",
+        "delete": "Delete"
+      }
+    },
+    "messageRuleComponent": {
+      "title": "Message Rule List",
+      "header": {
+        "no": "No.",
+        "busNumber": "Bus Number",
+        "messageId": "Message ID",
+        "ruleType": "Rule Type",
+        "expectedValue": "Expected Value",
+        "delete": "Delete"
+      }
+    },
+    "signalRuleComponent": {
+      "title": "Signal Rule List",
+      "header": {
+        "no": "No.",
+        "busNumber": "Bus Number",
+        "messageId": "Message ID",
+        "signalId": "Signal ID",
+        "ruleType": "Rule Type",
+        "expectedValue": "Expected Value",
+        "delete": "Delete"
+      }
+    }
+  },
+  "vehicleManagement": {
+    "addButton": "Add Vehicle",
+    "deleteButton": "Delete Vehicle",
+    "vehicleSearchBarPlaceholder": "Vehicle ID Search......",
+    "vehicleListHeader": {
+      "no": "No.",
+      "vehicleId": "Vehicle ID",
+      "policy": "Policy Name",
+      "version": "Version",
+      "registeredDate": "Registered Date",
+      "detail": "Detail"
+    }
+  },
+  "vehicleDetails": {
+    "detailInfoComponent": {
+      "title": "Vehicle Details",
+      "vehicleId": "Vehicle ID",
+      "brand": "Brand",
+      "type": "Type",
+      "size": "Size",
+      "registeredDate": "Registered Date",
+      "registeredCountry": "Registered Country",
+      "lastDate": "Last Date",
+      "lastCountry": "Last Country",
+      "policy": "Policy Name",
+      "version": "Version"
+    },
+    "historyLogComponent": {
+      "title": "History Log",
+      "header": {
+        "no": "No.",
+        "type": "Type",
+        "policy": "Policy Name",
+        "version": "Version",
+        "publishedTime": "Published Time",
+        "publishedBy": "Published By",
+        "appliedTime": "Applied Time"
+      }
+    }
+  },
+  "login": {
+    "autoFooter": "From the Road to the Cloud, Secured Connection for Your Ride",
+    "userInfoDoesNotMatch": "Given member information does not match.",
+    "fieldEmpty": "One or more than one field is empty.",
+    "id": "ID",
+    "password": "Password",
+    "login": "Log in"
+  },
+  "monitoring": {
+    "collapse": "Collapse -",
+    "viewAll": "View All +",
+    "mostVulnerableCityRanking": "Most Vulnerable City Ranking",
+    "mostVulnerableRegionRanking": "Most Vulnerable Region Ranking",
+    "overallThreatLevel": "Overall Threat Level",
+    "totalVehicles": "Total Vehicles",
+    "vehiclePlatformType": "Vehicle Platform Type",
+    "detectedCanLogs": "Detected CAN Logs",
+    "detectedHostLogs": "Detected HOST Logs",
+    "danger": "Danger",
+    "warning": "Warning",
+    "appliedSecurityPolicy": "Applied Security Policy",
+    "emergencyAlarms": "Emergency Alarms",
+    "number": "No.",
+    "city": "City",
+    "otl": "OTL",
+    "region": "Region",
+    "vSOCInformationPanel": "vSOC Information Panel",
+    "safe": "Safe",
+    "moderate": "Moderate",
+    "severe": "Severe",
+    "critical": "Critical"
+  },
+  "trendsAnalytics": {
+    "overallTrends": "Overall Trends",
+    "regionTrends": "Region Trends",
+    "vehicleTrends": "Vehicle Trends",
+    "partsTrends": "Parts Trends",
+    "partSingularity": "Part Singularity",
+    "singularityAnalysis": "Singularity Analysis",
+    "partsSpread": "Parts Spread",
+    "vehiclePlatformName": "Vehicle platform name",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "vehiclePlatformList": {
+    "addPlatform": "Add Platform",
+    "deletePlatform": "Delete Platform",
+    "nameSearch": "Name Search",
+    "number": "No.",
+    "name": "Name",
+    "registeredDate": "Registered Date",
+    "numberOfVehicleModel": "Number of Vehicle Model",
+    "numberOfVehicleGroup": "Number of Vehicle Group",
+    "numberOfVehicle": "Number of Vehicle",
+    "policyPublishedStatus": "Policy Published Status",
+    "detail": "detail"
+  },
+  "vehiclePlatformDetail": {
+    "information": "Information",
+    "vehicleGroup": "Vehicle Group",
+    "canDBList": "CAN DB LIST",
+    "downloadAll": "download all",
+    "number": "No.",
+    "canDB": "CAN DB",
+    "version": "Version",
+    "updatedDate": "Updated Date",
+    "file": "File",
+    "view": "view",
+    "download": "download",
+    "vehicles": "Vehicles",
+    "vehicleModels": "Vehicle Models",
+    "vehicleGroups": "Vehicle Groups",
+    "moveVehicles": "Move Vehicles",
+    "vehicleIdSearch": "Vehicle ID Search...",
+    "vehicleId": "Vehicle ID",
+    "brand": "Brand",
+    "type": "Type",
+    "size": "Size",
+    "appliedDate": "Applied Date",
+    "appliedPolicy": "Applied Policy",
+    "publishedDate": "Published Date",
+    "publishedPolicy": "Published Policy",
+    "defaultGroup": "Default Group",
+    "group1": "Group 1",
+    "group2": "Group 2",
+    "group3": "Group 3"
+  }
+}

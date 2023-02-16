@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: swagger
+
+server:
+  tomcat:
+    use-relative-redirects: true
+  servlet:
+    session:
+      timeout: 600m

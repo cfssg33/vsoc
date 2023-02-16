@@ -1,0 +1,19 @@
+server:
+  tomcat:
+    use-relative-redirects: true
+  servlet:
+    session:
+      timeout: 600m
+  error:
+    path: /error
+
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/
+      add-mappings: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB

@@ -1,0 +1,440 @@
+{
+  "routeName": {
+    "main": "主页",
+    "monitoring": "监测",
+    "trendAnalytics":"趋势分析",
+    "detectionLog": "检测日志",
+    "detectionCanIds": "CAN IDS",
+    "detectionHostIdps": "HOST IDPS",
+    "policyCanIds": "CAN IDS",
+    "policyHostIdps": "HOST IDPS",
+    "policyManagement": "策略管理",
+    "vehicleManagement": "车辆管理",
+    "vehicleList": "车辆清单",
+    "vehiclePlatformList": "车辆平台清单",
+    "vehicleDetails": "车辆信息",
+    "vehiclePlatformDetails": "车辆平台信息",
+    "systemSettings": "系统设置",
+    "settings": "设置",
+    "policyDetail": "策略信息",
+    "policyHistoryLogDetail": "记录日志信息",
+    "policyEdit": "策略编辑",
+    "account": "帐户",
+    "apiLog": "接口记录"
+  },
+  "account": {
+    "pageTitle": "帐户",
+    "registerAccount":  "账户注册",
+    "id": "账号",
+    "name": "名字",
+    "role": "角色",
+    "createdDate": "生成日期",
+    "registerPageNotify": "为必填项",
+    "checkDuplicate": "重复检查",
+    "password": "密码",
+    "checkPassword": "确认密码",
+    "register": "注册",
+    "cancel": "取消",
+    "currentPassword": "原密码",
+    "passwordGuide1": "密码设置指南",
+    "passwordGuide2": "请设置8-16位密码",
+    "passwordGuide3": "若包含大小写字母、特殊字符，就可以安全管理账户",
+    "registerComplete": "注册成功",
+    "requiredPass": "请输入密码",
+    "requiredId": "请输入账号",
+    "requiredName": "请输入名字",
+    "passwordValidationRule": "请设置8-16位密码",
+    "passwordConfirmationRule": "密码不一致",
+    "onDialogTitleModify": "更改管理员账户信息",
+    "onDialogTitleRegister": "管理员账户注册",
+    "availableId": "该账号可以正常使用 ",
+    "duplicatedId": "重复账号",
+    "cancelRegister": "请检查输入信息"
+  },
+  "apiLog": {
+    "pageTitle": "接口记录",
+    "createdTime": "生成时间",
+    "url": "url",
+    "method": "方法",
+    "level": "级别",
+    "sourceIp": "原IP",
+    "request": "请求",
+    "response": "响应",
+    "processingTime": "处理时间（秒）"
+  },
+  "detectionCanIds": {
+    "totalDetections": "检测总次数",
+    "averageDetections": "平均检测次数",
+    "detectedVehicles": "检测车辆",
+    "ruleName": "规则名称",
+    "detectionList" : "检测结果清单",
+    "hideRule": "隐藏规则",
+    "startDate": "起始日期",
+    "endDate": "结束日期",
+    "alwaysRealTime": "实时刷新",
+    "vehicleIdSearch": "车辆ID查询...",
+    "hideRuleMessage": "检测日志被隐藏\n将应用本检测日志的所有规则",
+    "export": "导出",
+    "accept": "接受",
+    "cancel": "取消",
+    "detectedTime": "检测时间",
+    "vehicleId": "车辆ID",
+    "policy": "策略名称",
+    "version": "版本",
+    "cnt": "次数",
+    "tx": "发送",
+    "rx": "接收",
+    "busId": "总线ID",
+    "messageId": "报文ID",
+    "signalId": "信号ID",
+    "rawMessageData": "原始报文数据（长度）",
+    "reasonForDetection": "检测原因",
+    "severity": "严重度",
+    "labeling": "区分类型",
+    "hide": "隐藏"
+  },
+  "detectionHostIdps": {
+    "totalDetections": "检测总次数",
+    "averageDetections": "平均检测次数",
+    "detectedVehicles": "检测车辆",
+    "ruleName": "规则名称",
+    "detectionList" : "检测结果清单",
+    "exportBtn": "导出",
+    "vehicleIdSearch": "车辆查询...",
+    "detectedTime": "检测时间",
+    "vehicleId": "车辆ID",
+    "policy": "策略名称",
+    "version": "版本",
+    "protocol": "协议",
+    "srcIp": "源端口Ip",
+    "srcPort": "源端口",
+    "dstIp": "目的ip",
+    "dstPort": "目的端口",
+    "severity": "严重度",
+    "labeling": "区分类型",
+    "hide": "隐藏",
+    "startDate": "起始日期",
+    "endDate": "结束日期",
+    "alwaysRealTime": "实时刷新",
+    "hideRule": "隐藏规则",
+    "hideRuleMessage": "检测日志被隐藏\n将应用本检测日志的所有规则",
+    "acceptBtn": "接受",
+    "cancelBtn": "取消",
+    "logType": "记录类型"
+  },
+  "policyCanIds": {
+    "pageTitle": "策略",
+    "addPolicyDialog": {
+      "triggerButton": "添加策略",
+      "title": "添加策略",
+      "fileInputLabel": "导入策略文件 (.json)",
+      "nameInputLabel": "策略名称",
+      "policyVersionLabel": "策略版本",
+      "addButton" :"添加",
+      "cancelButton": "取消"
+    },
+    "policySearchBarPlaceholder": "策略名称查询......",
+    "policyListHeader": {
+      "no": "序号",
+      "policyName": "策略名称",
+      "latestVersion": "最新版本",
+      "status": "状态",
+      "updated": "更新",
+      "updatedBy": "更新者",
+      "detail": "详细信息"
+    }
+  },
+  "policyHostIdps": {
+    "pageTitle": "策略",
+    "addPolicyDialog": {
+      "triggerButton": "添加策略",
+      "title": "添加策略",
+      "fileInputLabel": "导入策略文件 (.json)",
+      "nameInputLabel": "策略名称",
+      "policyVersionLabel": "策略版本",
+      "addButton" : "添加",
+      "cancelButton": "取消"
+    },
+    "policySearchBarPlaceholder": "策略名称查询......",
+    "policyListHeader": {
+      "no": "序号",
+      "policyName": "策略名称",
+      "latestVersion": "最新版本",
+      "status": "状态",
+      "updated": "更新",
+      "updatedBy": "更新人",
+      "detail": "详细信息"
+    }
+  },
+  "policyDetail": {
+    "versionComponent": {
+      "title": "版本",
+      "createDialog": {
+        "triggerButton": "创建新版本",
+        "title": "创建新版本",
+        "fileInputLabel": "导入策略文件 (.json)",
+        "versionInputLabel": "策略版本",
+        "createButton" : "创建",
+        "cancelButton": "取消"
+      },
+      "table": {
+        "header": {
+          "version": "版本",
+          "status": "状态",
+          "modified": "修改",
+          "modifiedBy": "修改人",
+          "published": "发布",
+          "publishedBy": "发布人",
+          "action": "附加举措"
+        },
+        "body": {
+          "edit": "编辑",
+          "publish": "发布",
+          "view": "查看",
+          "delete": "删除"
+        }
+      },
+      "publishDialog": {
+        "title": "发布 策略",
+        "publishTime": "发布时间",
+        "headers": {
+          "no": "序号",
+          "vehicleId": "车辆ID",
+          "policy": "策略",
+          "version": "版本",
+          "registeredDate": "注册日期",
+          "detail": "详细信息"
+        },
+        "publishButton": "发布",
+        "cancelButton": "取消"
+      }
+    },
+    "historyLogComponent": {
+      "title": "记录日志",
+      "table": {
+        "header": {
+          "no": "序号",
+          "version": "版本",
+          "vehicles": "车辆",
+          "publishedTime": "发布时间",
+          "publishedBy": "发布者",
+          "installationRate": "安装率",
+          "action": "附加举措",
+          "detail": "详细信息"
+        },
+        "body": {
+          "cancel": "取消",
+          "rollback": "回滚"
+        }
+      }
+    }
+  },
+  "policyHistoryLogDetail": {
+    "logDetailComponent": {
+      "title": "记录日志信息",
+      "version": "版本",
+      "publishedTime": "发布时间",
+      "vehicles": "车辆",
+      "publishedBy": "发布人"
+    },
+    "publishedVehiclesComponent": {
+      "title": "发布车辆",
+      "no": "序号",
+      "vehicleId": "车辆ID",
+      "policy": "策略",
+      "version": "版本",
+      "installationDate": "安装日期",
+      "installationStatus": "安装状态"
+    }
+  },
+  "policyEdit": {
+    "rule": "规则",
+    "addButton":  "添加",
+    "saveButton": "保存",
+    "canDbListComponent": {
+      "title": "CAN数据库列表",
+      "importPolicyDialog": {
+        "trigger": "导入策略",
+        "title": "导入策略",
+        "fileInputLabel": "导入策略(.json)",
+        "nameInputLabel": "策略名称",
+        "addButton": "添加",
+        "cancelButton": "取消"
+      },
+      "header": {
+        "no": "序号",
+        "busNumber": "总线编号",
+        "canDbName": "CAN数据库名称",
+        "generated": "生成时间",
+        "lastUpdated": "最后更新",
+        "actions": "附加举措"
+      },
+      "body": {
+        "edit": "编辑",
+        "download": "下载",
+        "view": "查看",
+        "delete": "删除"
+      }
+    },
+    "busRuleComponent": {
+      "title": "总线规则清单",
+      "header": {
+        "no": "序号",
+        "busNumber": "总线编号",
+        "ruleType": "规则类型",
+        "expectedValue": "期望值",
+        "delete": "删除"
+      }
+    },
+    "messageRuleComponent": {
+      "title": "报文规则清单",
+      "header": {
+        "no": "序号",
+        "busNumber": "总线编号",
+        "messageId": "报文ID",
+        "ruleType": "规则类型",
+        "expectedValue": "期望值",
+        "delete": "删除"
+      }
+    },
+    "signalRuleComponent": {
+      "title": "信号规则清单",
+      "header": {
+        "no": "序号",
+        "busNumber": "总线编号",
+        "messageId": "报文ID",
+        "signalId": "信号ID",
+        "ruleType": "规则类型",
+        "expectedValue": "期望值",
+        "delete": "删除"
+      }
+    }
+  },
+  "vehicleManagement": {
+    "addButton": "添加车辆",
+    "deleteButton": "删除车辆",
+    "vehicleSearchBarPlaceholder": "车辆ID查询......",
+    "vehicleListHeader": {
+      "no": "序号",
+      "vehicleId": "车辆ID",
+      "policy": "策略名称",
+      "version": "版本",
+      "registeredDate": "注册日期",
+      "detail": "详细信息"
+    }
+  },
+  "vehicleDetails": {
+    "detailInfoComponent": {
+      "title": "车辆信息",
+      "vehicleId": "车辆ID",
+      "brand": "品牌",
+      "type": "类型",
+      "size": "排量",
+      "registeredDate": "注册日期",
+      "registeredCountry": "注册国家",
+      "lastDate": "最后注册日期",
+      "lastCountry": "最后注册国家",
+      "policy": "策略名称",
+      "version": "版本"
+    },
+    "historyLogComponent": {
+      "title": "记录日志",
+      "header": {
+        "no": "序号",
+        "type": "类型",
+        "policy": "策略名称",
+        "version": "版本",
+        "publishedTime": "发布日期",
+        "publishedBy": "发布人",
+        "appliedTime": "应用时间"
+      }
+    }
+  },
+  "login": {
+    "autoFooter": "从道路到云端，安全连接伴随您的驾驶",
+    "userInfoDoesNotMatch": "您输入的用户信息不匹配",
+    "fieldEmpty": "一个或者多个字段为空",
+    "id": "账号",
+    "password": "密码",
+    "login": "登录"
+  },
+  "monitoring": {
+    "collapse": "折叠-",
+    "viewAll": "查看全部+",
+    "mostVulnerableCityRanking": "最易受攻击城市排行",
+    "mostVulnerableRegionRanking": "最易受攻击省份排行",
+    "overallThreatLevel": "总体威胁水平",
+    "totalVehicles": "车辆总数",
+    "vehiclePlatformType": "车辆平台类型",
+    "detectedCanLogs": "检测CAN日志",
+    "detectedHostLogs": "检测Host日志",
+    "danger": "危险",
+    "warning": "警告",
+    "appliedSecurityPolicy": "应用安全策略",
+    "emergencyAlarms": "紧急告警",
+    "number": "序号",
+    "city": "城市",
+    "otl": "otl",
+    "region": "省份",
+    "vSOCInformationPanel": "vSOC布告板",
+    "safe": "安全",
+    "moderate": "适当",
+    "severe": "严重",
+    "critical": "危险"
+  },
+  "trendsAnalytics": {
+    "overallTrends": "总体趋势",
+    "regionTrends": "区域趋势",
+    "vehicleTrends": "车辆趋势",
+    "partsTrends": "零件趋势",
+    "partSingularity": "零件奇异性",
+    "singularityAnalysis": "奇异性趋势",
+    "partsSpread": "零件分布图",
+    "vehiclePlatformName": "车辆平台名称",
+    "startDate": "起始日期",
+    "endDate": "结束日期"
+  },
+  "vehiclePlatformList": {
+    "addPlatform": "添加平台",
+    "deletePlatform": "删除平台",
+    "nameSearch": "名称查询",
+    "number": "序号",
+    "name": "名称",
+    "registeredDate": "注册日期",
+    "numberOfVehicleModel": "车辆型号数量",
+    "numberOfVehicleGroup": "车辆组数量",
+    "numberOfVehicle": "车辆数量",
+    "policyPublishedStatus": "策略发布状态",
+    "detail": "详细信息"
+  },
+  "vehiclePlatformDetail": {
+    "information": "信息",
+    "vehicleGroup": "车辆组",
+    "canDBList": "CAN数据库列表",
+    "downloadAll": "全部下载",
+    "number": "序号",
+    "canDB": "CAN数据库",
+    "version": "版本",
+    "updatedDate": "更新日期",
+    "file": "文件",
+    "view": "查看",
+    "download": "下载",
+    "vehicles": "车辆",
+    "vehicleModels": "车辆型号",
+    "vehicleGroups": "车辆组",
+    "moveVehicles": "车辆组间移动",
+    "vehicleIdSearch": "车辆ID查询...",
+    "vehicleId": "车辆ID",
+    "brand": "品牌",
+    "type": "类型",
+    "size": "排量",
+    "appliedDate": "适用日期",
+    "appliedPolicy": "适用策略",
+    "publishedDate": "发布日期",
+    "publishedPolicy": "发布策略",
+    "defaultGroup": "默认车辆组",
+    "group1": " 一组",
+    "group2": "二组",
+    "group3": "三组"
+  }
+}
